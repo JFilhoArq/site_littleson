@@ -22,17 +22,10 @@
   },
   "homepage": "https://github.com/Little-Son/site_littleson#readme",
   "dependencies": {
-    "graphql-request": "^3.4.0",
-    "gravatar": "^1.8.1",
-    "mongodb": "^3.6.3",
     "next": "^10.0.5",
     "next-auth": "^3.1.0",
-    "next-pwa": "^5.0.4",
-    "nodemailer": "^6.4.17",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "styled-components": "^5.2.1",
-    "styled-icons": "^10.25.0"
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "@types/next-auth": "^3.1.21"
