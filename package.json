@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postbuild": "next-sitemap"
   },
   "repository": {
     "type": "git",
@@ -24,8 +25,10 @@
   "dependencies": {
     "next": "^10.0.5",
     "next-auth": "^3.1.0",
+    "next-sitemap": "^1.4.13",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
     "@types/next-auth": "^3.1.21"
